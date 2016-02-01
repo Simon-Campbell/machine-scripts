@@ -1,7 +1,3 @@
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
-
-Enable-RemoteDesktop
-
 cinst git-credential-winstore -y
 cinst poshgit -y
 cinst notepadplusplus -y
@@ -16,5 +12,3 @@ cinst visualstudiocode -y
 #  TODO: Consider moving into separate module
 cinst nodejs.install -y
 cinst atom -y
-
-Install-WindowsUpdate -AcceptEula
