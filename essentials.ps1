@@ -3,7 +3,7 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 Enable-RemoteDesktop
 
 cinst googlechrome
-cinst 7zip-install
+cinst 7zip
 cinst keepass
 cinst vlc
 cinst steam
