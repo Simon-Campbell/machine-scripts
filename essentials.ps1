@@ -2,10 +2,10 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 
 Enable-RemoteDesktop
 
-cinst googlechrome
-cinst 7zip
-cinst keepass
-cinst vlc
-cinst steam
+cinst googlechrome -y
+cinst 7zip -y
+cinst keepass -y
+cinst vlc -y
+cinst steam -y
 
 Install-WindowsUpdate -AcceptEula
