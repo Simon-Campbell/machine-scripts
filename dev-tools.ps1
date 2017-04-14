@@ -1,14 +1,22 @@
 cinst git-credential-winstore -y
 cinst poshgit -y
-cinst notepadplusplus -y
 cinst vim -y
+cinst visualstudiocode -y
 
-# .NET dev 
+# Tools
+cinst sysinternals -y
+cinst putty.install -y
+cinst fiddler4 -y
+cinst docker -y
+
+# .NET dev tools
 #  TODO: Consider moving into separate module
 cinst dotpeek -y
-cinst visualstudiocode -y
 
 #  JavaScript dev
 #  TODO: Consider moving into separate module
 cinst nodejs.install -y
-cinst atom -y
+
+# Old
+#cinst atom -y
+#cinst notepadplusplus -y
