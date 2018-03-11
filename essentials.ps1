@@ -4,7 +4,7 @@ Enable-RemoteDesktop
 
 cinst googlechrome -y
 cinst 7zip -y
-cinst keepass -y
+cinst keeweb -y
 cinst vlc -y
 cinst steam -y
 
